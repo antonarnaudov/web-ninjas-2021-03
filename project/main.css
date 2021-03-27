@@ -25,6 +25,8 @@ img {
 
 ul {
     display: flex;
+    text-align: center;
+    justify-content: space-around;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,6 +34,24 @@ ul {
 
 li {
     text-decoration: none;
+    position: center;
     margin: 0;
     padding: 0;
+}
+
+#header {
+    text-align: center;
+}
+
+ul li h1 {
+    padding-top: 30px;
+}
+
+ul li p {
+    padding-top: 50%;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
 }
