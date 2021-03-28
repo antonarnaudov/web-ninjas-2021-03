@@ -19,6 +19,7 @@ hr {
 
 img {
     width: 150px;
+    border-radius: 6px;
     margin: 0;
     padding: 0;
 }
