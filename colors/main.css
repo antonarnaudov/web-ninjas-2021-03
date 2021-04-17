@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.red {
+    color: darkgreen;
+    font-family: 'Zen Dots', cursive;
+}
+
+p {
+    font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 5px Pink;
+}
