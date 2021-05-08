@@ -1,0 +1,7 @@
+body {
+    background-color: red;
+}
+
+ul {
+    list-style-image: url(/images/favicon-32x32.png);
+}
