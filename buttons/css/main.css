@@ -1,0 +1,18 @@
+main div button {
+    display: block;
+    margin: 0 auto;
+    background: #d6d715;
+    background: linear-gradient(#eeeeee, #d6d715 50%, #eeeeee);
+    border: 5px solid #b1b159;
+    border-radius: 11px;
+    box-shadow: -20px 20px #444444;
+    padding: 20px 45px;
+    color: #ff1500;
+    font: italic bold 26px/1 "Roboto", sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px #000000;
+}
+
+button:hover {
+    background: #70703e;
+}

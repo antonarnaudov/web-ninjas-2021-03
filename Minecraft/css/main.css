@@ -1,0 +1,13 @@
+body {
+    background-color: lime;
+    font-family: 'Press Start 2P', cursive;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+}
