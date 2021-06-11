@@ -5,38 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/main.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <h1>Calculator</h1>
 
     <main>
-
         <form>
 
-            <div class="field">
-                <label for="first-num">First number:</label>
-                <input id='first-num' type="text" name="first-num">
-            </div>
+            <input id='first-num' type="number" name="first-num" placeholder="Enter your first number">
 
-            <div class="field">
-                <label for="second-num">Second number:</label>
-                <input id='second-num' type="text" name="second-num">
-            </div>
+            <input id='second-num' type="number" name="second-num" placeholder="Enter your second number">
 
-            <div class="field">
-                <label for="result">Result:</label>
-                <input id='result' type="text" disabled>
-            </div>
+            <input id='result' type="text" name="result" placeholder="Result" disabled>
 
-            <button id="submit">Submit</button>
+            <button>Submit</button>
 
         </form>
 
     </main>
 
-    <script src='/index.js'></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
